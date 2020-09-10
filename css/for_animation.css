@@ -1,0 +1,47 @@
+/*Header List animation*/
+
+.nav-active {
+	transform: translateX(0%);
+	display: flex;
+}
+
+/*Header List-item animation*/ 
+
+@keyframes navLinkFade {
+	from {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+/*Hamburger Animation on click*/
+
+.toggle .line1 {
+	transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2 {
+	transform: translateX(-20px);
+	background: transparent;
+}
+.toggle .line3 {
+	transform: rotate(45deg) translate(-5px,-6px);
+}
+
+/*Block Resize*/
+
+.block_display-none {
+	display: none;
+}
+.block_resize {
+	height: 60px;
+}
+
+/*Transform Arrow*/
+
+.arrow_transform {
+	transform: rotate(0deg);
+}
